@@ -1,0 +1,13 @@
+Source: golang-ar
+Section: devel
+Priority: extra
+Maintainer: Michael Vogt
+Build-Depends: debhelper (>= 9), dh-golang, golang-go
+Standards-Version: 3.9.4
+Homepage: https://github.com/blakesmith/ar/
+
+Package: golang-ar-dev
+Architecture: all
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: ar archive file library
+ This Go package provides a native ar archive file library

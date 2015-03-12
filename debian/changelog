@@ -1,0 +1,5 @@
+golang-ar (0.0~git20150512-0ubuntu1) vivid; urgency=low
+
+  * Initial release
+
+ -- Michael Vogt <mvo@ubuntu.com>  Thu, 19 Dec 2013 12:55:59 -0300
