@@ -10,3 +10,6 @@ export DH_GOPKG := github.com/blakesmith/ar/
 
 override_dh_auto_install:
 	dh_auto_install -O--buildsystem=golang
+
+override_dh_auto_test:
+	# tests need fixtures that are not installed
